@@ -49,7 +49,7 @@
   <body>
     <!-- Header -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow">
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="../assets/images/cropped-logo.png" alt="" />
         </a>
@@ -65,7 +65,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
@@ -204,16 +204,17 @@
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <i class="fas fa-chevron-left"></i>
           <span class="visually-hidden">Previous</span>
         </button>
+
         <button
           class="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <i class="fas fa-chevron-right"></i>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
@@ -596,11 +597,165 @@
       <div class="container">
         <div class="section-heading text-center">
           <h3 class="title__section">Testimonials</h3>
-          <img src="images/tittle-icon.png" alt="" />
+          <img src="../assets/images/tittle-icon.png" alt="" />
+        </div>
+        <div class="owl-carousel owl-theme">
+          <!-- Item 1 -->
+          <div class="box-testimonials">
+            <div class="row">
+              <div class="col-md-3 col-4">
+                <div class="img-testimonials">
+                  <img src="../assets/images/Testimonial3.png" alt="" />
+                </div>
+              </div>
+              <div class="col-md-9 col-8">
+                <h4 class="fw-bold my-4"><a href="#">Testimonials 1</a></h4>
+              </div>
+            </div>
+            <div class="testimonial-content w-100 mb-3 pt-3 mt-3">
+              <blockquote>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit,
+                et placeat ipsum delectus natus architecto.
+              </blockquote>
+            </div>
+          </div>
+          <!-- Item 1 -->
+
+          <!-- Item 2 -->
+          <div class="box-testimonials">
+            <div class="row">
+              <div class="col-md-3 col-4">
+                <div class="img-testimonials">
+                  <img src="../assets/images/Testimonial3.png" alt="" />
+                </div>
+              </div>
+              <div class="col-md-9 col-8">
+                <h4 class="fw-bold my-4"><a href="#">Testimonials 2</a></h4>
+              </div>
+            </div>
+            <div class="testimonial-content w-100 mb-3 pt-3 mt-3">
+              <blockquote>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit,
+                et placeat ipsum delectus natus architecto.
+              </blockquote>
+            </div>
+          </div>
+          <!-- Item 2 -->
+
+          <!-- Item 3 -->
+          <div class="box-testimonials">
+            <div class="row">
+              <div class="col-md-3 col-4">
+                <div class="img-testimonials">
+                  <img src="../assets/images/Testimonial3.png" alt="" />
+                </div>
+              </div>
+              <div class="col-md-9 col-8">
+                <h4 class="fw-bold my-4"><a href="#">Testimonials 3</a></h4>
+              </div>
+            </div>
+            <div class="testimonial-content w-100 mb-3 pt-3 mt-3">
+              <blockquote>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit,
+                et placeat ipsum delectus natus architecto.
+              </blockquote>
+            </div>
+          </div>
+          <!-- Item 3 -->
         </div>
       </div>
     </section>
+
     <!-- Content -->
+    <div class="clearfix"></div>
+    <!-- Footer -->
+    <footer class="footer">
+      <section class="custom-footer">
+        <div class="container text-center">
+          <div class="footer_socialbox">
+            <div class="row">
+              <div class="col-12">
+                <div class="footer_social-box">
+                  <div class="footer_heart">
+                    <a href="#">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="footer_heart">
+                    <a href="#">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </div>
+                  <div class="footer_heart">
+                    <a href="#">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </div>
+                  <div class="footer_heart">
+                    <a href="#">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="section footer_content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 p-5">
+              <h3 class="title_footer">About US</h3>
+              <p class="text-light fw-bold">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+                deserunt. Obcaecati dignissimos iste inventore quis earum
+                perspiciatis neque natus, animi distinctio quos nam fugiat ipsa
+                repellendus accusantium, eius minima culpa, error sunt nostrum
+                deleniti reiciendis sapiente cupiditate alias! Magnam, aliquam!
+                Labore necessitatibus nam fugiat reprehenderit!
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-12 p-5">
+              <h3 class="title_footer">Contact US</h3>
+              <table style="width: 100%">
+                <tr>
+                  <th rowspan="2">
+                    <i class="fa-solid fa-location-dot ifooter"></i>
+                  </th>
+                  <td><strong>Location</strong></td>
+                </tr>
+                <tr>
+                  <td>Gò vấp, Hồ Chí Minh</td>
+                </tr>
+              </table>
+
+              <table style="width: 100%">
+                <tr>
+                  <th rowspan="2"><i class="fa-solid fa-phone ifooter"></i></th>
+                  <td><strong>Phone</strong></td>
+                </tr>
+                <tr>
+                  <td>0912345678</td>
+                </tr>
+              </table>
+              <table style="width: 100%">
+                <tr>
+                  <th rowspan="2">
+                    <i class="fa-solid fa-envelope ifooter"></i>
+                  </th>
+                  <td><strong>Email</strong></td>
+                </tr>
+                <tr>
+                  <td>contact@mevivu.com</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
 
     <!-- Scripts -->
     <script defer src="../assets/js/bootstrap.bundle.min.js"></script>
