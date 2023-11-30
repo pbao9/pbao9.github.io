@@ -14,10 +14,9 @@
 
 </head>
 
-<body class="antialiased">
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+<body class="h-screen w-[100%]">
+
+
 </body>
 
 </html>
