@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --font-title: "Lexend", sans-serif;
+  --font-body: "Roboto", sans-serif;
+  --color-primary: #76453b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+}
+
+.font-lexend-medium {
+  font-family: var(--font-title) !important;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font-roboto-regular {
+  font-family: var(--font-body) !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-roboto-medium {
+  font-family: var(--font-body) !important;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Search */
+
+.row-search {
+  justify-content: center;
+  align-items: center;
+}
+
+.row-option {
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+}
+
+.col-select {
+  padding: 1rem;
+  background-color: #fff;
+  color: #000;
+  text-wrap: nowrap;
+  text-align: center;
+}
+
+.col-textinput {
+  padding: 1rem;
+  background-color: #fff;
+  color: #000;
+  text-wrap: nowrap;
+  text-align: center;
+}
+
+.col-search_btn {
+  padding: 0;
+  color: #000;
+  text-wrap: nowrap;
+  text-align: center;
+}
+
+.col-option {
+  padding: 0.9rem;
+  opacity: 90%;
+  color: #dddddd;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  cursor: pointer;
+}
+
+.col-option:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.col-option:hover a {
+  /* font-weight: bold; */
+  color: #000 !important;
+}
+
+.col-option a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  color: #fff;
+  opacity: 1;
+}
+
+.btn-search:hover {
+  opacity: 0.9;
+}
+
+.search-box {
+  width: 750px;
+  opacity: 100%;
+}
+
+.title-link {
+  color: rgb(83, 83, 83);
+  position: relative;
+  display: block;
+  padding: 5px 0px;
+}
+
+.title-link::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  background-color: var(--color-primary);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.title-link:hover::after {
+  transform: scaleX(1);
+}
+
+.btn-brown {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.text-brown {
+  color: var(--color-primary) !important;
+}
+
+.btn-brown:hover {
+  background-color: #fff;
+  color: var(--color-primary);
+  border-color: var(--tblr-btn-hover-border-color);
+}
+
+#banner_img {
+  width: 100%;
+  height: 250px !important;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.nav-link {
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:active {
+  color: var(--color-primary);
+}
+
+.nav-link:hover {
+  color: var(--color-primary);
+  /* font-weight: bold; */
+  transition: all 0.3s ease-in-out;
+}
+
+.search-box ul.top-search li:first-child {
+  border-top-left-radius: 15px;
+}
+
+.search-box ul.top-search li:last-child {
+  border-top-right-radius: 15px;
+}
+
+.search-box ul.bottom-search li:first-child {
+  border-bottom-left-radius: 15px;
+}
+
+.search-box ul.bottom-search li:last-child {
+  border-bottom-right-radius: 15px;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  object-fit: cover;
+}
+
+swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+swiper-container {
+  width: 100%;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper {
+  height: 60%;
+  width: 100%;
+}
+
+.mySwiper2 {
+  height: 30%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper2 swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper2 .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.gallery-post {
+  height: 650px;
+}
+
+@media (max-width: 768px) {
+  * {
+    font-size: 13px;
+  }
+
+  .search-box {
+    width: 650px;
+  }
+}
+
+#search-top::-webkit-scrollbar {
+  display: none; /* Chrome */
+}
+
+#search-top {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
