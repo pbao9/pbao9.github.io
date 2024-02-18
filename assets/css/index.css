@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root {
+    --red-light-color: #FF6868 !important;
+    --font-title: "Carattere", cursive !important;
+    --font-desc: "Open Sans", sans-serif !important;
+    --white-plate-color: #FFF7F1 !important;
+}
+
+body {
+    background: #3f3f3f !important;
+}
+
+h1 {
+    font-family: var(--font-title);
+    letter-spacing: 2px !important;
+}
+
+
+h2,
+h3 {
+    font-family: var(--font-title) !important;
+    font-size: 1.75rem !important;
+    letter-spacing: 2px !important;
+}
